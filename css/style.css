@@ -1,0 +1,304 @@
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Pixelify Sans', cursive;
+*/
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    height: 75px;
+    background-color: aqua;
+    width: 100vw;
+    color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+.container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    /*
+    justify-content: space-between;
+    */
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.undefinedtext {
+    color: greenyellow;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 500px;
+    font-weight: 600;
+
+}
+
+.social {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+}
+
+.yt__icon {
+    width: 25px;
+    height: 25px;
+}
+
+.tg__icon {
+    width: 25px;
+    height: 25px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    height: 250px;
+    width: 100vw;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.tgiconhref {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+
+}
+
+.yticonhref {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.iconhrefs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section1 {
+    /*
+    height: 600px;
+    */
+    height: calc(100vh - 75px);
+    background-color: black;
+    color: white;
+    display: flex;
+
+
+
+}
+
+.game_title1 {
+    height: 25vw;
+}
+
+.ruslanghref {
+    color: black;
+}
+
+.englanghref {
+    color: black;
+}
+
+.leftside1 {
+    padding-left: 50px;
+
+
+}
+
+.allrighttext {
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+}
+
+.section2 {
+    height: 700px;
+    color: white;
+}
+
+.rightside1 {
+    display: flex;
+    /*
+    align-items: center;
+    */
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    height: 60vh;
+    width: 40vw;
+    background-color: rgb(24, 24, 24);
+    padding: 40px;
+
+}
+
+.undefinedtext {
+    color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+404
+
+*/
+
+
+
+
+.page404text {
+
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 28px;
+    font-weight: 300;
+    color: white;
+
+}
+
+.number404 {
+
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 100px;
+    font-weight: 600;
+    color: greenyellow;
+}
+
+.page4041 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 20, 20);
+    justify-content: center;
+    /*
+    padding-left: 80px;
+    */
+    padding-left: 15vw;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+B L O G
+
+*/
+
+
+
+
+
+.section1blog {
+    background-color: rgb(10, 10, 10);
+    height: 100vh;
+}
+
+.firsttw {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    background-color: rgb(26, 26, 26);
+    height: 200px;
+    width: 500px;
+    color: white;
+}
