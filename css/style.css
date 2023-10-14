@@ -298,7 +298,31 @@ B L O G
     align-items: end;
     justify-content: center;
     background-color: rgb(26, 26, 26);
+    /*
     height: 200px;
+    */
     width: 500px;
+    padding: 30px;
+    /*
+    padding-left: 30px;
+    padding-right: 30px;
+    */
     color: white;
+    margin-bottom: 40px;
+}
+
+
+.twbox {
+    padding-top: 30px;
+}
+
+.firsttw {}
+
+.textside {}
+
+.photoside {}
+
+.photoside__datetime {
+    font-size: 11px;
+    font-weight: 100;
 }
